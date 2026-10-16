@@ -8,13 +8,6 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import { getServerSideConfig } from "./config/server";
 
-const buildConfig = getBuildConfig();
-
-export const metadata = {
-  title: "ChatGPT ",
-  description: "Your personal ChatGPT Chat Bot.",
-  appleWebApp: {
-    title: "ChatGPT",
 export const metadata: Metadata = {
   title: "NextChat",
   description: "Your personal AI assistant.",
